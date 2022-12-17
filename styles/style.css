@@ -1,9 +1,92 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap");
+#container #information__text, #container #title #were {
+  font-family: "Montserrat", sans-serif;
+}
+
+#container #information__text, #container #title #were {
+  color: rgb(184, 138, 138);
+}
+
 * {
   margin: 0;
 }
 
 body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   margin: 0;
   width: 100%;
   height: 100vh;
+}
+
+#container {
+  border-radius: 10px;
+  background-color: rgb(255, 247, 247);
+  width: 375px;
+}
+#container #div__logo {
+  margin: 2rem 0 2rem 2rem;
+}
+#container #div__logo img {
+  height: 1.5rem;
+}
+#container #title {
+  display: flex;
+  margin-top: 4rem;
+  align-items: center;
+  flex-direction: column;
+  line-height: 1;
+  font-size: 2.5rem;
+  text-transform: uppercase;
+  letter-spacing: 0.5rem;
+  font-family: "Montserrat", sans-serif;
+  font-family: "Poppins", sans-serif;
+}
+#container #information__text {
+  font-size: 0.9rem;
+  line-height: 1.7;
+  margin: 1rem;
+}
+#container #information__text p {
+  text-align: center;
+  width: 340px;
+}
+#container #input {
+  display: flex;
+  justify-content: center;
+}
+#container #input #email__input {
+  background-color: rgba(255, 255, 255, 0);
+  margin-bottom: 2rem;
+  border: 1px rgb(212, 212, 212) solid;
+  border-radius: 25px;
+  height: 50px;
+  width: 310px;
+}
+#container #input #email__input::-moz-placeholder {
+  padding-left: 1.5rem;
+  font-size: 1rem;
+  color: rgba(186, 144, 144, 0.695);
+}
+#container #input #email__input:-ms-input-placeholder {
+  padding-left: 1.5rem;
+  font-size: 1rem;
+  color: rgba(186, 144, 144, 0.695);
+}
+#container #input #email__input::placeholder {
+  padding-left: 1.5rem;
+  font-size: 1rem;
+  color: rgba(186, 144, 144, 0.695);
+}
+#container #input #email__btn {
+  cursor: pointer;
+  margin-left: 17rem;
+  position: absolute;
+  border: none;
+  background-image: linear-gradient(135deg, #FFD3A5 10%, #FD6585 100%);
+  height: 3.5rem;
+  width: 4.5rem;
+  border-radius: 25px;
 }/*# sourceMappingURL=style.css.map */
