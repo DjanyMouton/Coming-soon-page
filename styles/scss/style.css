@@ -67,6 +67,9 @@ body {
   height: 40px;
   width: 310px;
 }
+#container #input #email__input:focus {
+  outline: none;
+}
 #container #input #email__input::-moz-placeholder {
   padding-left: 1.5rem;
   font-size: 1rem;
@@ -84,7 +87,7 @@ body {
 }
 #container #input #email__btn {
   cursor: pointer;
-  margin-left: 15.3rem;
+  margin-left: 15.4rem;
   position: absolute;
   border: none;
   background-image: linear-gradient(135deg, #FFD3A5 10%, #FD6585 100%);

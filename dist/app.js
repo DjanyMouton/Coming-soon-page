@@ -1,7 +1,7 @@
 "use strict";
-let input = document.querySelector('#input');
-let para = document.querySelector('#para');
-input.addEventListener('keyup', () => {
-    para.style.color = "Blue";
-    para.textContent = input.value;
+let input = document.querySelector('#email__input');
+input.addEventListener('click', () => {
+    input.placeholder = 'Tu fais quoi toiiii';
+    input.style.color = 'red';
+    console.log("ahah");
 });

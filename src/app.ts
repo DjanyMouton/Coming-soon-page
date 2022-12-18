@@ -1,8 +1,8 @@
-let input = document.querySelector('#input') as HTMLInputElement;
-let para = document.querySelector('#para') as HTMLElement;
+let input = document.querySelector('#email__input') as HTMLInputElement;
 
-input.addEventListener('keyup', () => {
-    para.style.color = "Blue"
-    para.textContent = input.value;
-})
+input.addEventListener('click', () => {
+    input.placeholder = 'Tu fais quoi toiiii';
+    input.style.color = 'red'; 
+    console.log("ahah");
+});
 
