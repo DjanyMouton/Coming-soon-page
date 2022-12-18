@@ -58,10 +58,10 @@ body {
 #container #input {
   display: flex;
   justify-content: center;
+  height: 50px;
 }
 #container #input #email__input {
   background-color: rgba(255, 255, 255, 0);
-  margin-bottom: 2rem;
   border: 1px rgb(212, 212, 212) solid;
   border-radius: 25px;
   height: 40px;
@@ -94,4 +94,9 @@ body {
   height: 45px;
   width: 4.5rem;
   border-radius: 25px;
+}
+#container #error__div {
+  margin: 0.2rem 0 1rem 3.5rem;
+  color: red;
+  font-size: 13px;
 }/*# sourceMappingURL=style.css.map */

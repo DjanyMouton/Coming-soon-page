@@ -1,7 +1,12 @@
 "use strict";
 let input = document.querySelector('#email__input');
-input.addEventListener('click', () => {
-    input.placeholder = 'Tu fais quoi toiiii';
-    input.style.color = 'red';
-    console.log("ahah");
+let btn = document.querySelector('#email__btn');
+btn.addEventListener('click', () => {
+    if (input.value == "") {
+        console.log('Error csl');
+        input.placeholder = "Error";
+    }
+    else {
+        console.log('Great ! You will receive the email in 5 minutes');
+    }
 });
