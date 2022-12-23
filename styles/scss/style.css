@@ -100,4 +100,7 @@ body {
   margin: 0.2rem 0 1rem 3.5rem;
   color: red;
   font-size: 13px;
+}
+#container #error__div #error__text {
+  font-family: "Josefin Sans", sans-serif;
 }/*# sourceMappingURL=style.css.map */

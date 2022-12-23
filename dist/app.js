@@ -5,7 +5,6 @@ let errorText = document.querySelector('#error__div');
 btn.addEventListener('click', () => {
     if (input.value == "") {
         console.log('Error csl');
-        input.placeholder = "Error";
         input.style.border = "red 1px solid";
         errorText.style.display = "flex";
     }
