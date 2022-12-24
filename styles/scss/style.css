@@ -103,4 +103,9 @@ body {
 }
 #container #error__div #error__text {
   font-family: "Josefin Sans", sans-serif;
+}
+#container #error__icon {
+  position: absolute;
+  margin: 0.7rem 0 0 8.5rem;
+  display: none;
 }/*# sourceMappingURL=style.css.map */
