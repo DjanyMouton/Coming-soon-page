@@ -14,7 +14,7 @@
 }
 
 body {
-  background-color: rgb(222, 222, 222);
+  background-color: rgb(202, 193, 193);
   display: flex;
   justify-content: center;
   align-items: center;
@@ -27,6 +27,7 @@ body {
   border-radius: 10px;
   background-color: rgb(255, 247, 247);
   width: 375px;
+  padding-bottom: 1.5rem;
 }
 #container #div__logo {
   margin: 2rem 0 2rem 2rem;
@@ -97,6 +98,7 @@ body {
 }
 #container #error__div {
   display: none;
+  position: absolute;
   margin: 0.2rem 0 1rem 3.5rem;
   color: red;
   font-size: 13px;
